@@ -1,0 +1,20 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    sorbet (0.5.10175)
+      sorbet-static (= 0.5.10175)
+    sorbet-runtime (0.5.10175)
+    sorbet-static (0.5.10175-universal-darwin-14)
+    sorbet-static-and-runtime (0.5.10175)
+      sorbet (= 0.5.10175)
+      sorbet-runtime (= 0.5.10175)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  sorbet-runtime
+  sorbet-static-and-runtime
+
+BUNDLED WITH
+   1.17.3
